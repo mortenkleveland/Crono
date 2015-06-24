@@ -13,6 +13,13 @@
 		5A0F95741B3B0A6E002B5739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0F95721B3B0A6E002B5739 /* Main.storyboard */; };
 		5A0F95761B3B0A6E002B5739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A0F95751B3B0A6E002B5739 /* Assets.xcassets */; };
 		5A0F95791B3B0A6E002B5739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A0F95771B3B0A6E002B5739 /* LaunchScreen.storyboard */; };
+		5A60ACD51B3B0E1F00A195FE /* BlackKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60ACC81B3B0E1F00A195FE /* BlackKeyView.m */; };
+		5A60ACD61B3B0E1F00A195FE /* KeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60ACCA1B3B0E1F00A195FE /* KeyboardView.m */; };
+		5A60ACD71B3B0E1F00A195FE /* KeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60ACCC1B3B0E1F00A195FE /* KeyView.m */; };
+		5A60ACD81B3B0E1F00A195FE /* OctaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60ACCE1B3B0E1F00A195FE /* OctaveView.m */; };
+		5A60ACD91B3B0E1F00A195FE /* TouchForwardingUIScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60ACD01B3B0E1F00A195FE /* TouchForwardingUIScrollView.m */; };
+		5A60ACDA1B3B0E1F00A195FE /* WhiteKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60ACD21B3B0E1F00A195FE /* WhiteKeyView.m */; };
+		5A60ACDB1B3B0E1F00A195FE /* UIView+Glow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A60ACD41B3B0E1F00A195FE /* UIView+Glow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,20 @@
 		5A0F95751B3B0A6E002B5739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A0F95781B3B0A6E002B5739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A0F957A1B3B0A6E002B5739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A60ACC71B3B0E1F00A195FE /* BlackKeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlackKeyView.h; sourceTree = "<group>"; };
+		5A60ACC81B3B0E1F00A195FE /* BlackKeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackKeyView.m; sourceTree = "<group>"; };
+		5A60ACC91B3B0E1F00A195FE /* KeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardView.h; sourceTree = "<group>"; };
+		5A60ACCA1B3B0E1F00A195FE /* KeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardView.m; sourceTree = "<group>"; };
+		5A60ACCB1B3B0E1F00A195FE /* KeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyView.h; sourceTree = "<group>"; };
+		5A60ACCC1B3B0E1F00A195FE /* KeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyView.m; sourceTree = "<group>"; };
+		5A60ACCD1B3B0E1F00A195FE /* OctaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OctaveView.h; sourceTree = "<group>"; };
+		5A60ACCE1B3B0E1F00A195FE /* OctaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OctaveView.m; sourceTree = "<group>"; };
+		5A60ACCF1B3B0E1F00A195FE /* TouchForwardingUIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchForwardingUIScrollView.h; sourceTree = "<group>"; };
+		5A60ACD01B3B0E1F00A195FE /* TouchForwardingUIScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchForwardingUIScrollView.m; sourceTree = "<group>"; };
+		5A60ACD11B3B0E1F00A195FE /* WhiteKeyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteKeyView.h; sourceTree = "<group>"; };
+		5A60ACD21B3B0E1F00A195FE /* WhiteKeyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteKeyView.m; sourceTree = "<group>"; };
+		5A60ACD31B3B0E1F00A195FE /* UIView+Glow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Glow.h"; sourceTree = "<group>"; };
+		5A60ACD41B3B0E1F00A195FE /* UIView+Glow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Glow.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +87,7 @@
 				5A0F95751B3B0A6E002B5739 /* Assets.xcassets */,
 				5A0F95771B3B0A6E002B5739 /* LaunchScreen.storyboard */,
 				5A0F957A1B3B0A6E002B5739 /* Info.plist */,
+				5A60ACDC1B3B0E2800A195FE /* KeyboardView */,
 				5A0F95691B3B0A6E002B5739 /* Supporting Files */,
 			);
 			path = Panda;
@@ -77,6 +99,27 @@
 				5A0F956A1B3B0A6E002B5739 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A60ACDC1B3B0E2800A195FE /* KeyboardView */ = {
+			isa = PBXGroup;
+			children = (
+				5A60ACC71B3B0E1F00A195FE /* BlackKeyView.h */,
+				5A60ACC81B3B0E1F00A195FE /* BlackKeyView.m */,
+				5A60ACC91B3B0E1F00A195FE /* KeyboardView.h */,
+				5A60ACCA1B3B0E1F00A195FE /* KeyboardView.m */,
+				5A60ACCB1B3B0E1F00A195FE /* KeyView.h */,
+				5A60ACCC1B3B0E1F00A195FE /* KeyView.m */,
+				5A60ACCD1B3B0E1F00A195FE /* OctaveView.h */,
+				5A60ACCE1B3B0E1F00A195FE /* OctaveView.m */,
+				5A60ACCF1B3B0E1F00A195FE /* TouchForwardingUIScrollView.h */,
+				5A60ACD01B3B0E1F00A195FE /* TouchForwardingUIScrollView.m */,
+				5A60ACD11B3B0E1F00A195FE /* WhiteKeyView.h */,
+				5A60ACD21B3B0E1F00A195FE /* WhiteKeyView.m */,
+				5A60ACD31B3B0E1F00A195FE /* UIView+Glow.h */,
+				5A60ACD41B3B0E1F00A195FE /* UIView+Glow.m */,
+			);
+			name = KeyboardView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +194,14 @@
 			files = (
 				5A0F95711B3B0A6E002B5739 /* ViewController.m in Sources */,
 				5A0F956E1B3B0A6E002B5739 /* AppDelegate.m in Sources */,
+				5A60ACD71B3B0E1F00A195FE /* KeyView.m in Sources */,
+				5A60ACD61B3B0E1F00A195FE /* KeyboardView.m in Sources */,
+				5A60ACDA1B3B0E1F00A195FE /* WhiteKeyView.m in Sources */,
+				5A60ACD51B3B0E1F00A195FE /* BlackKeyView.m in Sources */,
 				5A0F956B1B3B0A6E002B5739 /* main.m in Sources */,
+				5A60ACDB1B3B0E1F00A195FE /* UIView+Glow.m in Sources */,
+				5A60ACD91B3B0E1F00A195FE /* TouchForwardingUIScrollView.m in Sources */,
+				5A60ACD81B3B0E1F00A195FE /* OctaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +350,7 @@
 				5A0F957F1B3B0A6E002B5739 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

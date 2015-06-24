@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KeyboardView.h"
+#import "TouchForwardingUIScrollView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <KeyboardDelegate> {
+@private
+    TouchForwardingUIScrollView* keyboardScrollView;
+    KeyboardView* keyboardView;
+}
 
+@property (nonatomic, retain) IBOutlet UIScrollView *keyboardScrollView;
 
 @end
 
