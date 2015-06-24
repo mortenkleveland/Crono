@@ -22,12 +22,10 @@ int NUMBER_OF_OCTAVES = 8;
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self initKeyboardViewWithWidth:OCTAVE_WIDTH over:NUMBER_OF_OCTAVES];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

@@ -20,13 +20,23 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ous-cn-cWq" customClass="TouchForwardingUIScrollView">
                                 <rect key="frame" x="80" y="518" width="944" height="250"/>
                             </scrollView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Vz-N3-Tdy">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="311"/>
+                                <connections>
+                                    <segue destination="8Ul-kw-zMA" kind="embed" id="ImX-6J-vND"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Ous-cn-cWq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="498" id="1yE-WD-d8Y"/>
+                            <constraint firstItem="Ous-cn-cWq" firstAttribute="top" secondItem="7Vz-N3-Tdy" secondAttribute="bottom" constant="207" id="LcJ-ry-aQ7"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ous-cn-cWq" secondAttribute="bottom" id="QFt-Oe-JhE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7Vz-N3-Tdy" secondAttribute="trailing" constant="-20" id="hn9-2f-RLh"/>
                             <constraint firstItem="Ous-cn-cWq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="60" id="i7V-eo-g41"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ous-cn-cWq" secondAttribute="trailing" constant="-20" id="k1E-FT-fV3"/>
+                            <constraint firstItem="7Vz-N3-Tdy" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="oLN-Zs-bUc"/>
+                            <constraint firstItem="7Vz-N3-Tdy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="rpT-AP-GmV"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -38,6 +48,48 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-29" y="483"/>
+        </scene>
+        <!--Oscillator View Controller-->
+        <scene sceneID="yn7-0O-O0A">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="8Ul-kw-zMA" customClass="OscillatorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Wzr-vs-VeX"/>
+                        <viewControllerLayoutGuide type="bottom" id="5Gh-SU-X7u"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="kyh-Pj-Epc" customClass="OscillatorView">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="311"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YR9-gQ-SXB">
+                                <rect key="frame" x="18" y="20" width="321" height="31"/>
+                                <connections>
+                                    <action selector="oscillator1SliderChanged:" destination="8Ul-kw-zMA" eventType="valueChanged" id="l73-fQ-Pvz"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ud8-qW-44K">
+                                <rect key="frame" x="18" y="85" width="321" height="31"/>
+                                <connections>
+                                    <action selector="oscillator2SliderChanged:" destination="8Ul-kw-zMA" eventType="valueChanged" id="SFU-Dk-sSe"/>
+                                </connections>
+                            </slider>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oee-XD-5Xg">
+                                <rect key="frame" x="396" y="20" width="80" height="80"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <connections>
+                        <outlet property="oscillator1FineTunePlaceholder" destination="Oee-XD-5Xg" id="ORd-E2-dOr"/>
+                        <outlet property="oscillator1Slider" destination="YR9-gQ-SXB" id="weS-B0-hyd"/>
+                        <outlet property="oscillator2Slider" destination="ud8-qW-44K" id="mFZ-Kb-bHO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cVA-ma-d6J" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1138" y="254.5"/>
         </scene>
     </scenes>
 </document>
