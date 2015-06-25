@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Panda.xcodeproj">
+      location = "self:/Users/Morten/XCode/2015/Panda/Crono.xcodeproj">
    </FileRef>
 </Workspace>

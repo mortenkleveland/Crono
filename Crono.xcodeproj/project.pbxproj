@@ -79,7 +79,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5A0F95661B3B0A6E002B5739 /* Panda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A0F95661B3B0A6E002B5739 /* Crono.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crono.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A0F956A1B3B0A6E002B5739 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5A0F956C1B3B0A6E002B5739 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A0F956D1B3B0A6E002B5739 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 		5A0F955D1B3B0A6E002B5739 = {
 			isa = PBXGroup;
 			children = (
-				5A0F95681B3B0A6E002B5739 /* Panda */,
+				5A0F95681B3B0A6E002B5739 /* Crono */,
 				5A0F95671B3B0A6E002B5739 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -187,12 +187,12 @@
 		5A0F95671B3B0A6E002B5739 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A0F95661B3B0A6E002B5739 /* Panda.app */,
+				5A0F95661B3B0A6E002B5739 /* Crono.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5A0F95681B3B0A6E002B5739 /* Panda */ = {
+		5A0F95681B3B0A6E002B5739 /* Crono */ = {
 			isa = PBXGroup;
 			children = (
 				5A0F956C1B3B0A6E002B5739 /* AppDelegate.h */,
@@ -215,7 +215,7 @@
 				5A235C841B3B5726007BD6C0 /* Images */,
 				5A0F95691B3B0A6E002B5739 /* Supporting Files */,
 			);
-			path = Panda;
+			path = Crono;
 			sourceTree = "<group>";
 		};
 		5A0F95691B3B0A6E002B5739 /* Supporting Files */ = {
@@ -309,9 +309,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5A0F95651B3B0A6E002B5739 /* Panda */ = {
+		5A0F95651B3B0A6E002B5739 /* Crono */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A0F957D1B3B0A6E002B5739 /* Build configuration list for PBXNativeTarget "Panda" */;
+			buildConfigurationList = 5A0F957D1B3B0A6E002B5739 /* Build configuration list for PBXNativeTarget "Crono" */;
 			buildPhases = (
 				5A0F95621B3B0A6E002B5739 /* Sources */,
 				5A0F95631B3B0A6E002B5739 /* Frameworks */,
@@ -321,9 +321,9 @@
 			);
 			dependencies = (
 			);
-			name = Panda;
+			name = Crono;
 			productName = Panda;
-			productReference = 5A0F95661B3B0A6E002B5739 /* Panda.app */;
+			productReference = 5A0F95661B3B0A6E002B5739 /* Crono.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -340,7 +340,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5A0F95611B3B0A6E002B5739 /* Build configuration list for PBXProject "Panda" */;
+			buildConfigurationList = 5A0F95611B3B0A6E002B5739 /* Build configuration list for PBXProject "Crono" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -353,7 +353,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5A0F95651B3B0A6E002B5739 /* Panda */,
+				5A0F95651B3B0A6E002B5739 /* Crono */,
 			);
 		};
 /* End PBXProject section */
@@ -553,10 +553,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Panda/Info.plist;
+				INFOPLIST_FILE = Crono/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.mortengk.Panda;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.mortengk.Crono;
+				PRODUCT_NAME = Crono;
 			};
 			name = Debug;
 		};
@@ -564,17 +564,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Panda/Info.plist;
+				INFOPLIST_FILE = Crono/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.mortengk.Panda;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.mortengk.Crono;
+				PRODUCT_NAME = Crono;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5A0F95611B3B0A6E002B5739 /* Build configuration list for PBXProject "Panda" */ = {
+		5A0F95611B3B0A6E002B5739 /* Build configuration list for PBXProject "Crono" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A0F957B1B3B0A6E002B5739 /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A0F957D1B3B0A6E002B5739 /* Build configuration list for PBXNativeTarget "Panda" */ = {
+		5A0F957D1B3B0A6E002B5739 /* Build configuration list for PBXNativeTarget "Crono" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5A0F957E1B3B0A6E002B5739 /* Debug */,
